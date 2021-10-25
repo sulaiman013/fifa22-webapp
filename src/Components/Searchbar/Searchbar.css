@@ -1,0 +1,110 @@
+.search-container {
+  margin-top: 400px;
+  margin-left: 1050px;
+}
+.search-field {
+  width: 450px;
+  height: 50px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 500ms;
+}
+.search-field:focus {
+  box-shadow: -1px 4px 18px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 4px 18px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 18px 1px rgba(0, 0, 0, 0.75);
+}
+.btn-regular {
+  margin-left: 5px;
+  width: 90px;
+  height: 54px;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: lightgrey;
+  transition: 500ms;
+}
+.btn-regular:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: -1px 4px 18px 1px rgba(34, 80, 136, 0.75);
+  -webkit-box-shadow: -1px 4px 18px 1px rgba(34, 80, 136, 0.75);
+  -moz-box-shadow: -1px 4px 18px 1px rgba(34, 80, 136, 0.75);
+}
+.dataResult {
+  margin: auto;
+  margin-top: 5px;
+  margin-right: 257px;
+  border-radius: 5px;
+  width: 450px;
+  height: 80px;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: 500ms;
+}
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+.items {
+  cursor: pointer;
+  width: 100%;
+}
+.link-style {
+  text-decoration: none;
+  color: black;
+}
+
+/* Tablet Screen */
+@media only screen and (max-width: 1600px) {
+  .search-container {
+    margin-top: 400px;
+    margin-left: 850px;
+  }
+  .search-field {
+    width: 300px;
+    height: 50px;
+  }
+  .dataResult {
+    margin-right: 135px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .search-container {
+    margin-top: 400px;
+    margin-left: 450px;
+  }
+  .search-field {
+    width: 250px;
+    height: 50px;
+  }
+  .dataResult {
+    margin-right: 165px;
+    width: 250px;
+  }
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 767px) {
+  .search-container {
+    margin-top: 300px;
+    margin-left: 200px;
+  }
+  .search-field {
+    width: 150px;
+    height: 50px;
+  }
+  .dataResult {
+    margin-right: 125px;
+    width: 150px;
+    height: auto;
+  }
+}

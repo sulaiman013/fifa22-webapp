@@ -1,0 +1,28 @@
+.home {
+  background-image: url("../../assets/images/ultimate.png");
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 1024px) {
+  .home {
+    background-image: url("../../assets/images/ultimate2.png");
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 767px) {
+  .home {
+    background-image: url("../../assets/images/ultimate4.png");
+    width: 100%;
+    height: 100%;
+  }
+}
